@@ -188,7 +188,7 @@ public class ComponentSwerve {
        turning mode > 44
        add update XY position
     */
-    protected void driveRobot(double drvSpd) {
+    public void driveRobot(double drvSpd) {
 
         if(Math.abs(drvSpd) > 44) {
             turnRobot((int)drvSpd);

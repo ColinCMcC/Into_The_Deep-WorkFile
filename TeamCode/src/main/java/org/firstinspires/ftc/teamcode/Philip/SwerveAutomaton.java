@@ -14,7 +14,7 @@ public class SwerveAutomaton extends LinearOpMode {
 
     // Create a RobotHardware object to be used to access robot hardware.
     // Prefix any hardware functions with "robot." to access this class.
-    org.firstinspires.ftc.teamcode.ComponentSwerve robot = new ComponentSwerve(this);
+    ComponentSwerve robot = new ComponentSwerve(this);
 
     @Override
     public void runOpMode() {
